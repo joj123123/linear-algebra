@@ -24,7 +24,8 @@ row picture 란 행렬을 row 방향으로 방정식을 따져보는것을 의�
 column picture 란 해당 행렬에서 x 부분과 y 부분을 따로 보는것이다.<br>
 <img src="https://user-images.githubusercontent.com/53939100/74930889-df959e80-5421-11ea-87b1-e306079c693e.png"></img><br>
 Column picture 에서는 각각의 행렬을 벡터로 볼 수 있고 각각의 벡터에 x,y 값에대한 결과값을 b 라고 할 수 있다.<br>
-이것을 Linear combination 이라고 한다.
+이것을 Linear combination 이라고 한다.<br>
+* Linear combination 은 값이 0 ~ infinite 개 있을 수 있음
 
 # markup
 Row picture 로써 행렬 바라본다는것은 방정식으로 바라본다는것<br>
