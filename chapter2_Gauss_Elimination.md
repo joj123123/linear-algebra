@@ -36,7 +36,7 @@ Failure case 는 두가지 case 가 있다<br>
 계산이 쉽기 떄문에 설명은 생략한다.<br><br>
 <img src="https://user-images.githubusercontent.com/53939100/74944364-44102800-5439-11ea-800a-49ea356cf03a.png"></img><br><br>
 
-<pre> A     b</pre>
+<pre><strong>      A                 b</strong></pre>
 <img src="https://user-images.githubusercontent.com/53939100/74944537-8cc7e100-5439-11ea-8de6-2fc0f92a2d16.png"></img><br><br>
 
 
