@@ -6,8 +6,8 @@
 이를 위해 3개 요소가 필요
 
 <li>coefficient matrix</li><br>
-unknown vector<br>
-right-hand side vector<br>
+<li>unknown vector</li><br>
+<li>right-hand side vector</li><br>
 
 <img src="https://user-images.githubusercontent.com/53939100/74929395-bc1d2480-541e-11ea-9d75-cc3b9bdc1d8f.png"></img><br>
 A     X     b
