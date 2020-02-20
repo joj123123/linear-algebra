@@ -51,7 +51,7 @@ Failure case 는 두가지 case 가 있다<br>
 <img src='https://user-images.githubusercontent.com/53939100/74939521-5dae7100-5433-11ea-8ca4-46a3e9df8ab2.png'></img>
 <br><br>
 *E21 와 A 행렬
-E21 와 A 의 multiplies 에서 답이 되는 행렬의 첫번째 row 를 생각해보면 1*0 + 0*3 + 0*0 으로 정의 된다.<br>
+E21 와 A 의 multiplies 에서 답이 되는 행렬의 첫번째 row 를 생각해보면 1 * 0 + 0 * 3 + 0 * 0 으로 정의 된다.<br>
 이를 row 방향으로 생각해보면 E21 에서의 1x1 , 1x2 , 1x3 의 row1 , row2 , row3 와의 Linear combination 으로 나타낼 수 있다.<br>
 즉, 1 2 1 라는 row 를 만들기 위해서는 A 의 row1 을 1번 더하면 되므로 E21 의 첫번째 row 는 1 , 0 , 0 이 된다.
 
