@@ -30,7 +30,7 @@ Linear combination 즉 , 선형 결합은 Column picture 에서의 각 Column(ve
 즉, Ax = b 가 되는 x 를 찾는 것이고, 이 x 값은 행렬식에 따라 없거나 무한할 수 있다.<br>
 
 # markup
-Row picture 로써 행렬 바라본다는것은 방정식으로 바라본다는것<br>
+Row picture 로써 행렬 바라본다는것은 equation으로 바라본다는것<br>
 Column picture 로써 행렬을 바라보는것은 행렬을 벡터들의 linear combination 으로 본다는것
 
 
