@@ -46,11 +46,14 @@ Failure case 는 두가지 case 가 있다<br>
 우리는 Elimination 을 이용해 2x1 matrix 를 없앨 수 있었다.<br>
 그렇다면 2x1 을 없애기 위한 matrix 가 존재 할 것이고 이것을 E21 이라고 한다.<br>
 그런데 E21를 찾기 위해서는 어떻게 해야 할까<br>
-바로 Row Linear Combination 을 이용하는것이다.<br>
+바로 Row Linear Combination 을 이용하는것이다.<br><br>
 <img src='https://user-images.githubusercontent.com/53939100/74948040-1201c480-543f-11ea-83b1-3ddfc773b5d3.png'></img>
 <img src='https://user-images.githubusercontent.com/53939100/74939521-5dae7100-5433-11ea-8ca4-46a3e9df8ab2.png'></img>
 <br><br>
-E21 와 A 행렬
+*E21 와 A 행렬
+E21 와 A 의 multiplies 에서 답이 되는 행렬의 첫번째 row 를 생각해보면 1*0 + 0*3 + 0*0 으로 정의 된다.<br>
+이를 row 방향으로 생각해보면 E21 에서의 1x1 , 1x2 , 1x3 의 row1 , row2 , row3 와의 Linear combination 으로 나타낼 수 있다.<br>
+즉, 1 2 1 라는 row 를 만들기 위해서는 A 의 row1 을 1번 더하면 되므로 E21 의 첫번째 row 는 1 , 0 , 0 이 된다.
 
 
 
