@@ -30,6 +30,8 @@ x+2y+z=2<br>
 Failure case 는 두가지 case 가 있다<br>
 <li> 1. temporary failure (Row exchange 를 통해 극복 가능)</li>
 <li> 2. complete failure (pivot = 0 인 상황에서 Row exchange 를 할 수 없는 상황 )</li>
+* non-singular case 에서는 row exchange 를 discuss 할 수 있으나, singular case 에서는 불가능.<br><br>
+<img src="https://user-images.githubusercontent.com/53939100/74946275-62c3ee00-543c-11ea-85c6-009b58297036.png"></img><br><br>
 
 # Back-substitution
 위의 Elimination 과정에서 b를 붙여서 소거를 하는 방법이다.<br>
@@ -39,9 +41,16 @@ Failure case 는 두가지 case 가 있다<br>
 ## after
 <img src="https://user-images.githubusercontent.com/53939100/74944537-8cc7e100-5439-11ea-8de6-2fc0f92a2d16.png"></img><br><br>
 
-
-
-
+# Elimination matrix
+<img src='https://user-images.githubusercontent.com/53939100/74939521-5dae7100-5433-11ea-8ca4-46a3e9df8ab2.png'></img><br><br>
+우리는 Elimination 을 이용해 2x1 matrix 를 없앨 수 있었다.<br>
+그렇다면 2x1 을 없애기 위한 matrix 가 존재 할 것이고 이것을 E21 이라고 한다.<br>
+그런데 E21를 찾기 위해서는 어떻게 해야 할까<br>
+바로 Row Linear Combination 을 이용하는것이다.<br>
+<img src='https://user-images.githubusercontent.com/53939100/74948040-1201c480-543f-11ea-83b1-3ddfc773b5d3.png'></img>
+<img src='https://user-images.githubusercontent.com/53939100/74939521-5dae7100-5433-11ea-8ca4-46a3e9df8ab2.png'></img>
+<br><br>
+E21 와 A 행렬
 
 
 
