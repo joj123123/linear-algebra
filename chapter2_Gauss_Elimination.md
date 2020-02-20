@@ -22,7 +22,7 @@ x+2y+z=2<br>
 <img src="https://user-images.githubusercontent.com/53939100/74939627-92222d00-5433-11ea-8411-c3ffe4bd5c50.png"></img><br><br>위 이미지는 소거가 모두 완료된 행렬이다, 이와같은 행렬을 U(Upper triangular Matrix) 라고 부른다.<br>
 
 # Failure case
-위에서 우리는 행렬의 소거를 진행했다. 하지만 다음과 같이 pivot 값이 0 인 경우 소거법 적용이 불가능 하다. 
+위에서 우리는 행렬의 소거를 진행했다. 하지만 다음과 같이 pivot 값이 0 인 경우 소거법 적용이 불가능 하다.<br><br>
 <img src='https://user-images.githubusercontent.com/53939100/74941364-3b6a2280-5436-11ea-961d-d63631919160.png'></img><br><br>
 또한 첫번째 column 을 소거 했는데 두번째 column 까지 소거되는 경우또한 있을것이다.<br>
 이러한 경우 해당 Row 를 아래의 Row 와 바꾸는 방법을 쓸 수 있다.<br>
@@ -30,6 +30,14 @@ x+2y+z=2<br>
 Failure case 는 두가지 case 가 있다<br>
 <li> 1. temporary failure (Row exchange 를 통해 극복 가능)</li>
 <li> 2. complete failure (pivot = 0 인 상황에서 Row exchange 를 할 수 없는 상황 )</li>
+
+# Back-substitution
+위의 Elimination 과정에서 b를 붙여서 소거를 하는 방법이다.<br>
+계산이 쉽기 떄문에 설명은 생략한다.<br><br>
+<img src="https://user-images.githubusercontent.com/53939100/74944364-44102800-5439-11ea-800a-49ea356cf03a.png"></img><br><br>
+
+<pre> A     b</pre>
+<img src="https://user-images.githubusercontent.com/53939100/74944537-8cc7e100-5439-11ea-8de6-2fc0f92a2d16.png"></img><br><br>
 
 
 
