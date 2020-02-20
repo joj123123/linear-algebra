@@ -10,5 +10,5 @@
 <li>right-hand side vector</li>
 
 <img src="https://user-images.githubusercontent.com/53939100/74929395-bc1d2480-541e-11ea-9d75-cc3b9bdc1d8f.png"></img><br>
-A     X     b
+<p>A     X     b</p>
 
