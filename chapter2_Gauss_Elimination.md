@@ -58,6 +58,3 @@ E21 와 A 의 multiplies 에서 답이 되는 행렬의 첫번째 row 를 생각
 위 행렬을 row linear combination 으로 바라보면 A 행렬의 첫번째 row 를 1번 사용해서 b에서의 첫번째 row 를 만들었고.<br>
 A행렬의 row1 을 -3번 , row2 를 1번 사용해서 b 에서의 row 2 를 만들었다.
 
-<br><br>
-<img src="https://user-images.githubusercontent.com/53939100/75007110-75c7d400-54b7-11ea-97ab-494d7d4283ec.png"></img><br><br>
-
