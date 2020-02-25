@@ -56,5 +56,6 @@ E21 와 A 의 multiplies 에서 답이 되는 행렬의 첫번째 row 를 생각
 즉, 1 2 1 라는 row 를 만들기 위해서는 A 의 row1 을 1번 더하면 되므로 E21 의 첫번째 row 는 1 , 0 , 0 이 된다.<br><br>
 <img src="https://user-images.githubusercontent.com/53939100/75007020-22ee1c80-54b7-11ea-9d84-9449763a692a.png"></img><br><br>
 위 행렬을 row linear combination 으로 바라보면 A 행렬의 첫번째 row 를 1번 사용해서 b에서의 첫번째 row 를 만들었고.<br>
-A행렬의 row1 을 -3번 , row2 를 1번 사용해서 b 에서의 row 2 를 만들었다.
+A행렬의 row1 을 -3번 , row2 를 1번 사용해서 b 에서의 row 2 를 만들었다.<br>
+## 위의 E21 행렬과 E31 행렬,E32 행렬을 A에 곱하게 되면 U행렬이 나오므로 이것을 식으로는 EA = U 로 나타낸다.
 
