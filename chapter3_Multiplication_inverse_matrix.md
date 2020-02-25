@@ -13,16 +13,27 @@
 <img src="https://user-images.githubusercontent.com/53939100/75218021-3d3c3900-57dc-11ea-936b-5fc532542a21.png"></img><br><br>
 #### 위 행렬에서 c 행렬은 a행렬 column 의 합으로 나타낼 수 있다.<br>
 c11 , c21 , c31 은 각각 a11 과 b11 ,a21 과 b21, a31과 b31 을 원소로 가지고 있다.<br>
-그렇기 때문에 c 행렬은 a 의 1,2,3 column 을 b11,b21,b31번 곱한것과 같은 결과를 가지게 된다.
+그렇기 때문에 c 행렬은 a 의 1,2,3 column 을 b11,b21,b31번 곱한것과 같은 결과를 가지게 된다.<br>
+이로인해 Ax=b 에서 b는 A 행렬의 combination 으로 이루어 져 있다는 것을 알 수 있다.
 
-## row - wise
+## 3.row - wise
 <img src="https://user-images.githubusercontent.com/53939100/75218870-a624b080-57de-11ea-8cf1-2bd1a1ba7c74.png"></img><br><br>
 #### 위 행렬에서 c 행렬은 a행렬 row 의 합으로 나타낼 수 있다.<br>
 위의 c행렬에서 row 1 은 a 의 row1과 b의 column 들의 조합으로 나타낼 수 있다.<br>
 *c11 = a row1 X b column1<br>
 *c12 = a row1 X b column2<br>
 
+## column X row
+<img src="https://user-images.githubusercontent.com/53939100/75221055-30bbde80-57e4-11ea-8c5d-af3d7f08f496.png"></img><br><br>
+위의 column wise 연산과 row wise 연산을 이용하면 위 행렬의 곱셈을 두가지의 행렬의 곱셈으로 나타낼 수 있다.<br>
+그런데 그 나눠진 행렬의 곱셈은 두가지 특징을 가진다<br>
+<img src='https://user-images.githubusercontent.com/53939100/75221474-454ca680-57e5-11ea-83da-4c1cd4fd5a77.png)'></img><br><br>
+#### 1.C의 모든 column 은 A column 의 line 에 존재 한다.
+#### 2.C의 모든 row 는 x row 의 line 에 존재 한다.
+이는 분할된 행렬의 곱셈을 column wise 와 row wise 로 바라보면 검증될 수 있다.<br>
+b의 모든 column 은 A column 을 x만큼 곱한것이기 때문에 같은 line 에 존재 할수밖에 없다.<br>
+b의 모든 row 는 x row 를 A 만큼 곱한것이기 때문에 같은 line 에 존재 할수밖에없다<br>
 
-
+# 
 
 
