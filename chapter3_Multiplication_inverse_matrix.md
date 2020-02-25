@@ -27,7 +27,7 @@ c11 , c21 , c31 은 각각 a11 과 b11 ,a21 과 b21, a31과 b31 을 원소로 �
 <img src="https://user-images.githubusercontent.com/53939100/75221055-30bbde80-57e4-11ea-8c5d-af3d7f08f496.png"></img><br><br>
 위의 column wise 연산과 row wise 연산을 이용하면 위 행렬의 곱셈을 두가지의 행렬의 곱셈으로 나타낼 수 있다.<br>
 그런데 그 나눠진 행렬의 곱셈은 두가지 특징을 가진다<br>
-<img src='https://user-images.githubusercontent.com/53939100/75221474-454ca680-57e5-11ea-83da-4c1cd4fd5a77.png)'></img><br><br>
+<img src='https://user-images.githubusercontent.com/53939100/75221474-454ca680-57e5-11ea-83da-4c1cd4fd5a77.png'></img><br><br>
 #### 1.C의 모든 column 은 A column 의 line 에 존재 한다.
 #### 2.C의 모든 row 는 x row 의 line 에 존재 한다.
 이는 분할된 행렬의 곱셈을 column wise 와 row wise 로 바라보면 검증될 수 있다.<br>
