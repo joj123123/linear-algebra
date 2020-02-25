@@ -17,6 +17,7 @@ c11 , c21 , c31 은 각각 a11 과 b11 ,a21 과 b21, a31과 b31 을 원소로 �
 
 ## row - wise
 <img src="https://user-images.githubusercontent.com/53939100/75218870-a624b080-57de-11ea-8cf1-2bd1a1ba7c74.png"></img><br><br>
+#### 위 행렬에서 c 행렬은 a행렬 row 의 합으로 나타낼 수 있다.<br>
 위의 c행렬에서 row 1 은 a 의 row1과 b의 column 들의 조합으로 나타낼 수 있다.<br>
 *c11 = a row1 X b column1<br>
 *c12 = a row1 X b column2<br>
