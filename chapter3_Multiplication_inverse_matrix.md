@@ -1,4 +1,4 @@
-# Matrix_Notation_Multiplication
+# Multiplication_inverse_matrix
 행렬의 곱셈은 여러가지 관점에서 바라볼 수 있다.<br>
 ## 1.row * column
 <img src="https://user-images.githubusercontent.com/53939100/75216756-665aca80-57d8-11ea-9bdd-6b8c60e361b9.png"></img><br><br>
