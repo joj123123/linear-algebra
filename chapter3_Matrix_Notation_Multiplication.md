@@ -9,6 +9,11 @@
 ### 1. A 에서의 n 의 크기와 x 에서의 n 의 크기가 일치해야 행렬의 곱셈이 성립할 수 있다.
 ### 2. b 행렬의 크기는 m x p 이다.
 
+## 2.column - wise
+<img src="https://user-images.githubusercontent.com/53939100/75218021-3d3c3900-57dc-11ea-936b-5fc532542a21.png"></img><br><br>
+#### 위 행렬에서 c 행렬은 a행렬 column 의 합으로 나타낼 수 있다.<br>
+c11 , c21 , c31 은 각각 a11 과 b11 ,a21 과 b21, a31과 b31 을 원소로 가지고 있다.<br>
+그렇기 때문에 c 행렬은 a 의 1,2,3 column 을 b11,b21,b31번 곱한것과 같은 결과를 가지게 된다.
 
 
 
