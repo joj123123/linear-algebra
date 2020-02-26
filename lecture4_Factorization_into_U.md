@@ -10,3 +10,9 @@ Transpose 란 column 과 row 를 뒤바꾸는것을 의미한다.<br><br>
 또한 다음식이 성립한다<br><br>
 <img src="https://user-images.githubusercontent.com/53939100/75325321-f45bb180-58bb-11ea-9da8-230a6fd4f3e1.png"></img><br><br>
 
+# LU decomposition
+LU 란 Lower , Upper 를 뜻하며 decomposition 는 행렬을 하삼각 행렬, 상삼각 행렬으로 나눈다는 뜻이다.<br>
+데이터를 분석할때 필요에따라 행렬을 분해시켜 분석할 수 있게 하는과정이라고 할 수 있다.<br><br>
+<img src="https://user-images.githubusercontent.com/53939100/75327677-2a9b3000-58c0-11ea-96bc-bba34cc3465b.png"></img><br><br>
+
+
