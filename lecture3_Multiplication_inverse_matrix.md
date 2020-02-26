@@ -42,7 +42,8 @@ b의 모든 row 는 x row 를 A 만큼 곱한것이기 때문에 같은 line 에
 행렬은 역행렬을 가질수도 있지만 가지지 못하는 경우도 있다. 그러한 경우를 singular case 혹은 no inverse matrix 라고 부른다.<br>
 <img src="https://user-images.githubusercontent.com/53939100/75316862-d422f700-58a9-11ea-9b17-6b2dc3d07ae7.png"></img><br><br>
 행렬식을 이용하면 위 식은 0이 된다 그렇기 떄문에 역행렬은 존재하지 않는다.<br>
-또한 정방행렬 A 가 존재할때, Ax = 0 인 x 를 찾을 수 있다면 A 행렬은 역행렬이 존재하지 않는다.<br>
+또한 정방행렬 A 가 존재할때, Ax = 0 인 x 를 찾을 수 있다면(영행렬이 아닌) A 행렬은 역행렬이 존재하지 않는다.<br>
+*만약 Ax = b 에서 b 가 0이되는 경우 b 에서 다시 A를 만들 수 없기 때문에 존재하지 않음,
 
 ## Gauss - jordan idea
 <img src="https://user-images.githubusercontent.com/53939100/75318658-409ff500-58ae-11ea-93fa-927524be2cfd.png"></img><br><br>
