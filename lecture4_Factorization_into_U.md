@@ -5,7 +5,7 @@
 
 # Transpose
 Transpose 란 column 과 row 를 뒤바꾸는것을 의미한다.<br><br>
-*example
+*example<br>
 <img src="https://user-images.githubusercontent.com/53939100/75324535-86fb5100-58ba-11ea-9f69-07101d827764.png"></img><br><br>
 또한 다음식이 성립한다<br><br>
 <img src="https://user-images.githubusercontent.com/53939100/75325321-f45bb180-58bb-11ea-9da8-230a6fd4f3e1.png"></img><br><br>
