@@ -34,6 +34,16 @@ c11 , c21 , c31 은 각각 a11 과 b11 ,a21 과 b21, a31과 b31 을 원소로 �
 b의 모든 column 은 A column 을 x만큼 곱한것이기 때문에 같은 line 에 존재 할수밖에 없다.<br>
 b의 모든 row 는 x row 를 A 만큼 곱한것이기 때문에 같은 line 에 존재 할수밖에없다<br>
 
-# 
+# invers matrix
+<img src="https://user-images.githubusercontent.com/53939100/75316591-20ba0280-58a9-11ea-9e0e-aa1dd56549f9.png"></img><br><br>
+역행렬이란 행렬 A 가 존재할때 곱했을때 단위행렬 I 가 나오는 행렬이다. 역행렬은 위와같이 곱하는 순서가 바뀌어도 성립한다.<br>
+
+## singular case(no inverse)
+행렬은 역행렬을 가질수도 있지만 가지지 못하는 경우도 있다. 그러한 경우를 singular case 혹은 no inverse matrix 라고 부른다.<br>
+<img src="https://user-images.githubusercontent.com/53939100/75316862-d422f700-58a9-11ea-9b17-6b2dc3d07ae7.png"></img><br><br>
+
+
+
+
 
 
