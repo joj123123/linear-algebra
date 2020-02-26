@@ -41,6 +41,15 @@ b의 모든 row 는 x row 를 A 만큼 곱한것이기 때문에 같은 line 에
 ## singular case(no inverse)
 행렬은 역행렬을 가질수도 있지만 가지지 못하는 경우도 있다. 그러한 경우를 singular case 혹은 no inverse matrix 라고 부른다.<br>
 <img src="https://user-images.githubusercontent.com/53939100/75316862-d422f700-58a9-11ea-9b17-6b2dc3d07ae7.png"></img><br><br>
+행렬식을 이용하면 위 식은 0이 된다 그렇기 떄문에 역행렬은 존재하지 않는다.<br>
+또한 정방행렬 A 가 존재할때, Ax = 0 인 x 를 찾을 수 있다면 A 행렬은 역행렬이 존재하지 않는다.<br>
+
+## Gauss - jordan idea
+<img src="https://user-images.githubusercontent.com/53939100/75318658-409ff500-58ae-11ea-93fa-927524be2cfd.png"></img><br><br>
+첫번째로, 역행렬을 구하고자 하는 행렬에 단위행렬을 후방 대입시킨다. 그리고 Gauss elimination 을 해준다.<br>
+두번째로, pivot 값의 위에있는값을 소거한다.(만약 pivot 값이 1이아니라면 1으로 나눠준다)<br><br>
+<img src="https://user-images.githubusercontent.com/53939100/75319140-6974ba00-58af-11ea-96a1-602cef2701de.png"></img><br><br> 위 식을 처음 행렬과 곱해보면 I 행렬이 나오는것을 확인할 수 있다.<br>
+
 
 
 
